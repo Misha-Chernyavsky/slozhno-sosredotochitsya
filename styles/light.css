@@ -4,9 +4,37 @@
   переключая тему
 */
 
+:root .theme_light {
+  --bg-color-page: rgba(255, 241, 247, 1);
+  --bg-color-card: rgba(255, 141, 203, 1);
+  --color-text-accent: rgba(53, 52, 48, 1);
+  --color-title: rgba(53, 52, 48, 1);
+  --color-title-h1: rgba(255, 194, 230, 1);
+  --color-title-background: rgba(53, 52, 48, 1);
+  --color-border: rgba(53, 52, 48, 1);
+  --color-shadow: rgba(255, 0, 112, 1);
+  --color-shadow-link: rgba(255, 141, 203, 1);
+  --color-rec-and-dot: transparent;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color-page: rgba(255, 241, 247, 1);
+    --bg-color-card: rgba(255, 141, 203, 1);
+    --color-text-accent: rgba(53, 52, 48, 1);
+    --color-title: rgba(53, 52, 48, 1);
+    --color-title-h1: rgba(255, 194, 230, 1);
+    --color-title-background: rgba(53, 52, 48, 1);
+    --color-border: rgba(53, 52, 48, 1);
+    --color-shadow: rgba(255, 0, 112, 1);
+    --color-shadow-link: rgba(255, 141, 203, 1);
+    --color-rec-and-dot: transparent;
+  }
+  .page {
+    background-image: url(../images/cover-image-light.png);
+  }
+}
+
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  background-image: url(../images/cover-image-light.png);
 }

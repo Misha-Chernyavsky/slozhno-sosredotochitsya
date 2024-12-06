@@ -2,3 +2,15 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --bg-color-page: rgba(0, 0, 40, 1);
+  --bg-color-card: rgba(255, 0, 112, 1);
+  --color-text-accent: rgba(241, 178, 206, 1);
+  --color-title: rgba(255, 0, 112, 1);
+  --color-title-h1: rgba(219, 0, 255, 1);
+  --color-title-background: rgba(0, 0, 40, 1);
+  --color-border: rgba(255, 0, 112, 1);
+  --color-shadow: rgba(255, 0, 112, 1);
+  --color-shadow-link: rgba(255, 0, 112, 1);
+  --color-rec-and-dot: rgba(255, 0, 112, 1);
+}
