@@ -14,6 +14,7 @@
   --color-border: rgba(53, 52, 48, 1);
   --color-shadow: rgba(255, 0, 112, 1);
   --color-shadow-link: rgba(255, 141, 203, 1);
+  --color-border-hover: rgba(50, 49, 45, 0.4);
   --color-rec-and-dot: transparent;
 }
 
@@ -28,6 +29,7 @@
     --color-border: rgba(53, 52, 48, 1);
     --color-shadow: rgba(255, 0, 112, 1);
     --color-shadow-link: rgba(255, 141, 203, 1);
+    --color-border-hover: rgba(50, 49, 45, 0.4);
     --color-rec-and-dot: transparent;
   }
   .page {

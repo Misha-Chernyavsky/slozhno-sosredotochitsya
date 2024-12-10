@@ -13,4 +13,5 @@
   --color-shadow: rgba(255, 0, 112, 1);
   --color-shadow-link: rgba(255, 0, 112, 1);
   --color-rec-and-dot: rgba(255, 0, 112, 1);
+  --color-border-hover: rgba(255, 0, 112, 0.4);
 }
