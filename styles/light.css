@@ -35,6 +35,9 @@
   .page {
     background-image: url(../images/cover-image-light.png);
   }
+  .link_border {
+    text-decoration: none;
+  }
 }
 
 .page.theme_light {
