@@ -1,1 +1,1 @@
-https://github.com/Misha-Chernyavsky/slozhno-sosredotochitsya.git
+https://github.com/Misha-Chernyavsky/slozhno-sosredotochitsya-fd.git
