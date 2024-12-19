@@ -83,7 +83,7 @@
   height: 26px;
   background-color: transparent;
   text-transform: lowercase;
-  border: 0px solid rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
 }
 
 .header__theme-menu-button:hover {
@@ -171,9 +171,7 @@
 
 .link_text {
   text-shadow: 1px 1px 0px var(--color-shadow-link);
-}
-.link_border {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .link_text:hover {
@@ -181,8 +179,7 @@
 }
 
 .link_text:focus {
-  outline: none;
-  border: 1px solid var(--color-text-accent);
+  outline: 1px solid var(--color-text-accent);
 }
 
 .text_title_for_picture {
@@ -301,10 +298,6 @@
   .card_block_picture {
     gap: 20px;
     padding: 59px 20px 60px 20px;
-  }
-
-  .link_border {
-    text-decoration: none;
   }
 
   .image_list {
@@ -432,10 +425,6 @@
 
   .block_text_grid {
     grid-column: 2/3;
-  }
-
-  .link_border {
-    text-decoration: none;
   }
 
   .card_block_picture {
